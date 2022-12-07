@@ -25,7 +25,7 @@ class POSTtest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Vanya"))
+                .body("data", equalTo("Tanya"))
         ;
     }
 }
